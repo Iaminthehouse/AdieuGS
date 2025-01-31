@@ -1,5 +1,5 @@
 # AdieuGS
-using Blender I wanted to find an alternative to the greenscreen workflow for inserting 2D videos in 3 environment.   
+Using Blender I wanted to find an alternative to the greenscreen workflow for inserting 2D videos in 3D environment.   
 This workflow removes the background from a image sequence and create the related normal map.  
 
 __Installation (Windows only, GPU necessary)__    
@@ -17,5 +17,5 @@ __startet the removal of the background& the creation of normal maps__
 - Start a `cmd` 
 - Go with `cd` to the working directory  
 - Call in the cmd windows `./runAdieuGS.bat`
-- Some errors may occurs
+- Some errors may occur, because the AI Model for removing background is not working actually on GPU onlyo CPU. But It is the most accurate from all that I tested.  
 - After the batch is finished check the directories *output/images* & *output/normals*. 
