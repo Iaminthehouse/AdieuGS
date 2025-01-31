@@ -1,6 +1,6 @@
 # AdieuGS
 Using Blender I wanted to find an alternative to the greenscreen workflow for inserting 2D videos in 3D environment.   
-This workflow removes the background from a image sequence and create the related normal map to enhance the lighting.  
+This workflow removes the background from a image sequence and creates the related normal map to enhance the lighting.  
 
 __Installation (Windows only, GPU necessary)__    
 - Create a working directory  
