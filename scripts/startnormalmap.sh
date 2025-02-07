@@ -11,8 +11,15 @@ MODE='torchscript' ## original. no optimizations (slow). full precision inferenc
 #----------------------------set your input and output directories----------------------------------------------
 #MYROOT='D:/AI/tuts/part2'
 MYROOT=$1
-INPUT=${MYROOT}'/input'
-OUTPUT=${MYROOT}'/output/normals'
+MYINPUT=$2
+MYOUTPUT=$3
+#INPUT=${MYROOT}'/input'
+#OUTPUT=${MYROOT}'/output/normals'
+INPUT=${MYINPUT}
+OUTPUT=${MYOUTPUT}
+echo "Input directory set to ${MYINPUT} 
+echo "Output directory set to ${MYOUTPUT} 
+
 
 #--------------------------MODEL CARD---------------
 #MODEL_NAME='sapiens_0.3b'; CHECKPOINT='D:/AI/Meta/Sapiens/lite/sapiens_lite_host/torchscript/normal/checkpoints/sapiens_0.3b/sapiens_0.3b_normal_render_people_epoch_66_torchscript.pt2'
