@@ -39,8 +39,8 @@ REM %myroot%/ext/normals/sapiens/lite/scripts/demo/torchscript/startnormalmap.ba
 git bash %myroot%/ext/normals/sapiens/lite/scripts/demo/torchscript/startnormalmap.sh %myroot% %output_dir%/images %output_dir%/normals
 call myenv\Scripts\deactivate.bat
 echo cleaning directories...
-cd %input_dir%
+cd %output_dir%/images
 del /q *.txt
-cd %output_dir%
+cd %output_dir%/normals
 del /q *.npy
 echo files creation finished...
