@@ -56,7 +56,7 @@ def run_script():
     progress_bar.pack(pady=5)
     progress_bar.start(10)  # speed of the moving “bar”
 
-    log_run(model, input_dir, output_dir)
+    #log_run(model, input_dir, output_dir)
     
     try:
         process = subprocess.Popen(
@@ -88,7 +88,8 @@ def run_script():
 
 # Create UI
 root = tk.Tk()
-root.title("AdieuGS @Fransoavirtuality")
+root.title("AdieuGS 1.0 by Fransoavirtuality")
+root.iconbitmap("moi.ico")
 root.geometry("500x500")
 
 # Frame for Model selection
@@ -124,7 +125,9 @@ run_button = tk.Button(
     command=run_script,
     bg="azure",
     fg="black",
-    font=("Arial", 10, "bold")
+    font=("Arial", 10, "bold"),
+    width=10,   # Number of text units for width
+    height=1    # Number of text units for height
 )
 run_button.pack(pady=10)
 
