@@ -13,7 +13,7 @@ As prerequisites, you should install both Python and Git Bash before proceeding.
 - This will take a while, go drink a coffee or make some exercises or what you want
 
 
-__Startet the removal of the background& the creation of normal maps__  
+__Starting the removal of the background & the creation of normal maps__  
 - Start the startUI.bat file. An application will appear  
 ![image](https://github.com/user-attachments/assets/41819558-6faa-46f3-b2d0-bd6124247bf6)  
 
