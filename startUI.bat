@@ -1,2 +1,2 @@
 echo off
-start pythonw.exe adieugsui.py
+start pythonw.exe adieugsv2.py
